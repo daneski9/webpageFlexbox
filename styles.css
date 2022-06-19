@@ -7,6 +7,7 @@ body{
     font-weight: 300;
     display: flex;
     flex-direction: column;
+    background-color: #1F2937;
 }
 header{
  background-color: #1F2937;
@@ -27,6 +28,7 @@ header>ul{
 .title-container{
     background-color: #1F2937;
     height: 20rem;
+    padding-top: 5rem;
 }
 .title-left>.title{
     font-size: 48px;
@@ -61,12 +63,39 @@ margin-left: 10px;
     display:flex;
     justify-content: space-around;
     align-items: center;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
+    max-width: 80%;
+    margin: 0 auto;
+    
 }
 .title-left{
-    width: 30%;
+    width: 40%;
 }
 .title-pic{
     height: 320px;
     width: auto;
+}
+/*second block*/
+.pics-container{
+    background-color: #F9FAF8;
+    height: 500px;
+}
+.pics-container>ul{
+    display:flex;
+    list-style: none;
+    margin-top: 50px;
+    justify-content: center;
+}
+.text-under{
+    width: 45%;
+    text-align: center;
+    
+}
+
+.text-pics{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight:bold;
+    text-align: center;
+    margin-top: 30px;
 }
