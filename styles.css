@@ -25,8 +25,18 @@ header>ul{
     gap: 25px;
 }
 .title-container{
- background-color: #1F2937;   
- 
+    background-color: #1F2937;
+    
+}
+.title-container>.title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+
+}
+.title-container>.subtitle{
+    color: white;
+    font-size: 18px;
 }
 
 ul{
